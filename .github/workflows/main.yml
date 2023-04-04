@@ -16,7 +16,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: 22
           script: |
-            cd ~/home/pedro/IFFini/
+            cd ~/IFFini/
             git pull origin master
             git status
             npm install
