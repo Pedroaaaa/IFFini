@@ -17,7 +17,7 @@ jobs:
           port: 22
           script: |
             cd ~/IFFini/
-            git pull origin master
+            git pull
             git status
             npm install
             npx tsc
